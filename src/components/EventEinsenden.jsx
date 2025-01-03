@@ -38,7 +38,7 @@ function EventEinsenden() {
                         <input required className='max-sm:w-full text-sm outline-none placeholder:font-bold w-1/2 border placeholder:text-neutral-500 border-off-grey rounded-[30px] py-[17.5px] px-4' placeholder='Standort' type="text" />
                         <input required className='max-sm:w-full text-sm outline-none placeholder:font-bold w-1/2 border placeholder:text-neutral-500 border-off-grey rounded-[30px] py-[17.5px] px-4' placeholder='Preis' type="text" />
                     </div>
-                    <textarea required rows={5} className='text-sm outline-none placeholder:font-bold w-full border placeholder:text-neutral-500 border-off-grey rounded-[30px] py-[17.5px] px-4' placeholder='Details zur Veranstaltung'></textarea>
+                    <textarea required rows={5} className='placeholder:pt-10 text-sm outline-none placeholder:font-bold w-full border placeholder:text-neutral-500 border-off-grey rounded-[30px] py-[17.5px] px-4' placeholder='Details zur Veranstaltung'></textarea>
                     <button className='font-bold bg-[#0071BB] text-white py-4 px-[155px] max-md:px-28 max-sm:px-10 w-fit rounded-[30px] mx-auto'>Event einsenden</button>
                 </form>
 
