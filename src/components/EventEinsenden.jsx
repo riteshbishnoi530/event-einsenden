@@ -68,7 +68,7 @@ function EventEinsenden() {
                         <input
                             required
                             className='max-sm:w-full text-sm outline-none placeholder:font-bold w-1/2 border placeholder:text-neutral-500 border-off-grey rounded-[30px] py-[17.5px] px-4'
-                            placeholder='Titel'
+                            placeholder='Title'
                             name="title"
                             onChange={handleChange}
                             value={formData.title}
